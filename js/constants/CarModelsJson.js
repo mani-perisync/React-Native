@@ -1,0 +1,281 @@
+import { bmwImg1, bmwImg2, bmwImg3, BuggatiImg1, BuggatiImg2, BuggatiImg3, BuggatiImg4, Half_Star, HondaImg1, HondaImg2, HondaImg3, MercedesImg1, MercedesImg2, MercedesImg3, TeslaImg1, TeslaImg2, TeslaImg3, ToyotaImg1, ToyotaImg2, ToyotaImg3, VolvoImg1, VolvoImg2, VolvoImg3 } from "./links"
+
+
+export const CarModelsJson = [
+    // mercedes
+    {
+        Brand_Id:0,
+        Brand_Name:"Mercedes",
+        Product_Id:0,
+        Img:MercedesImg1,
+        name:"Mercedes Sports",
+        starImg:Half_Star,
+        Rating:4.5,
+        Condition:"New",
+        Rate:"$155,000",
+        favorite:false,
+    },
+    {
+        Brand_Id:0,
+        Brand_Name:"Mercedes",
+        Product_Id:1,
+        Img:MercedesImg2,
+        name:"Mercedes Sports",
+        starImg:Half_Star,
+        Rating:4.9,
+        Condition:"Used",
+        Rate:"$170,000",
+        favorite:false,
+    },
+    {
+        Brand_Id:0,
+        Brand_Name:"Mercedes",
+        Product_Id:2,
+        Img:MercedesImg3,
+        name:"Mercedes Sports",
+        starImg:Half_Star,
+        Rating:4.7,
+        Condition:"New",
+        Rate:"$143,000",
+        favorite:false,
+    },
+    // tesla
+    {
+        Brand_Id:1,
+        Brand_Name:"Tesla",
+        Product_Id:3,
+        Img:TeslaImg1,
+        name:"Tesla Sports",
+        starImg:Half_Star,
+        Rating:4.8,
+        Condition:"New",
+        Rate:"$210,000",
+        favorite:false,
+    },
+    {
+        Brand_Id:1,
+        Brand_Name:"Tesla",
+        Product_Id:4,
+        Img:TeslaImg2,
+        name:"Tesla Sports",
+        starImg:Half_Star,
+        Rating:4.5,
+        Condition:"New",
+        Rate:"$250,000",
+        favorite:false,
+    },
+    {
+        Brand_Id:1,
+        Brand_Name:"Tesla",
+        Product_Id:5,
+        Img:TeslaImg3,
+        name:"Tesla Sports",
+        starImg:Half_Star,
+        Rating:4.6,
+        Condition:"Used",
+        Rate:"$180,000",
+        favorite:false,
+    },
+    // BMW
+    {
+        Brand_Id:2,
+        Brand_Name:"BMW",
+        Product_Id:6,
+        Img:bmwImg1,
+        name:"BMW Sports",
+        starImg:Half_Star,
+        Rating:4.85,
+        Condition:"New",
+        Rate:"$167,000",
+        favorite:false
+    },
+    {
+        Brand_Id:2,
+        Brand_Name:"BMW",
+        Product_Id:7,
+        Img:bmwImg2,
+        name:"BMW Sports",
+        starImg:Half_Star,
+        Rating:4.85,
+        Condition:"Used",
+        Rate:"$120,000",
+        favorite:false
+    },
+    {
+        Brand_Id:2,
+        Brand_Name:"BMW",
+        Product_Id:8,
+        Img:bmwImg3,
+        name:"BMW Sports",
+        starImg:Half_Star,
+        Rating:4.85,
+        Condition:"New",
+        Rate:"$280,000",
+        favorite:false
+    },
+    // Toyota
+    {
+        Brand_Id:3,
+        Brand_Name:"Toyota",
+        Product_Id:9,
+        Img:ToyotaImg1,
+        name:"Toyota Sports",
+        starImg:Half_Star,
+        Rating:4.94,
+        Condition:"Used",
+        Rate:"$155,000",
+        favorite:false
+    },
+    {
+        Brand_Id:3,
+        Brand_Name:"Toyota",
+        Product_Id:10,
+        Img:ToyotaImg2,
+        name:"Toyota Sports",
+        starImg:Half_Star,
+        Rating:4.98,
+        Condition:"New",
+        Rate:"$243,000",
+        favorite:false
+    },
+    {
+        Brand_Id:3,
+        Brand_Name:"Toyota",
+        Product_Id:11,
+        Img:ToyotaImg3,
+        name:"Toyota Sports",
+        starImg:Half_Star,
+        Rating:4.91,
+        Condition:"New",
+        Rate:"$227,000",
+        favorite:false
+    },
+
+    // Volvo
+    {
+        Brand_Id:4,
+        Brand_Name:"Volvo",
+        Product_Id:12,
+        Img:VolvoImg1,
+        name:"Volvo Sports",
+        starImg:Half_Star,
+        Rating:4.96,
+        Condition:"New",
+        Rate:"$160,000",
+        favorite:false
+    },
+    {
+        Brand_Id:4,
+        Brand_Name:"Volvo",
+        Product_Id:13,
+        Img:VolvoImg2,
+        name:"Volvo Sports",
+        starImg:Half_Star,
+        Rating:4.91,
+        Condition:"New",
+        Rate:"$198,000",
+        favorite:false
+    },
+    {
+        Brand_Id:4,
+        Brand_Name:"Volvo",
+        Product_Id:14,
+        Img:VolvoImg3,
+        name:"Volvo Sports",
+        starImg:Half_Star,
+        Rating:4.93,
+        Condition:"Used",
+        Rate:"$130,000",
+        favorite:false
+    },
+
+    // Buggati
+    {
+        Brand_Id:5,
+        Brand_Name:"Bugatti",
+        Product_Id:15,
+        Img:BuggatiImg1,
+        name:"Buggati Sports",
+        starImg:Half_Star,
+        Rating:4.99,
+        Condition:"New",
+        Rate:"$280,000",
+        favorite:false
+    },
+    {
+        Brand_Id:5,
+        Brand_Name:"Bugatti",
+        Product_Id:16,
+        Img:BuggatiImg2,
+        name:"Buggati Sports",
+        starImg:Half_Star,
+        Rating:4.97,
+        Condition:"New",
+        Rate:"$293,000",
+        favorite:false
+    },
+    {
+        Brand_Id:5,
+        Brand_Name:"Bugatti",
+        Product_Id:17,
+        Img:BuggatiImg3,
+        name:"Buggati Sports",
+        starImg:Half_Star,
+        Rating:4.99,
+        Condition:"Used",
+        Rate:"$215,000",
+        favorite:false
+    },
+    {
+        Brand_Id:5,
+        Brand_Name:"Bugatti",
+        Product_Id:18,
+        Img:BuggatiImg4,
+        name:"Buggati Sports",
+        starImg:Half_Star,
+        Rating:4.95,
+        Condition:"New",
+        Rate:"$273,000",
+        favorite:false
+    },
+
+    // Honda
+    {
+        Brand_Id:6,
+        Brand_Name:"Honda",
+        Product_Id:19,
+        Img:HondaImg1,
+        name:"Honda Sports",
+        starImg:Half_Star,
+        Rating:4.91,
+        Condition:"New",
+        Rate:"$190,000",
+        favorite:false
+    },
+    {
+        Brand_Id:6,
+        Brand_Name:"Honda",
+        Product_Id:20,
+        Img:HondaImg2,
+        name:"Honda Sports",
+        starImg:Half_Star,
+        Rating:4.87,
+        Condition:"New",
+        Rate:"$178,000",
+        favorite:false
+    },
+    {
+        Brand_Id:6,
+        Brand_Name:"Honda",
+        Product_Id:21,
+        Img:HondaImg3,
+        name:"Honda Sports",
+        starImg:Half_Star,
+        Rating:4.94,
+        Condition:"Used",
+        Rate:"$110,000",
+        favorite:false
+    },
+
+
+]
