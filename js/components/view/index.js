@@ -9,4 +9,6 @@ export { TextComponent } from "./TextComponent";
 export { OtherLoginComponent } from "./OtherLoginComponent";
 export { OtherSignupComponent } from "./OtherSignupComponent";
 export { CarModelsComponent } from "./CarModelsComponent";
+export { ProfileHeader } from "./ProfileHeader";
+
 // export { DropDownComponent } from "./DropDownComponent"

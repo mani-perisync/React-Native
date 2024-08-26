@@ -47,7 +47,7 @@ export const StackNavigation = ()=> {
             }}
             initialRouteName='SplashScreen'
         >
-            {!isLoggedIn ?
+            {isLoggedIn ?
                 // Non Auth
                 <Stack.Group>
                     <Stack.Screen name="SplashScreen" component={SplashScreen}/>
@@ -66,12 +66,11 @@ export const StackNavigation = ()=> {
                 // Auth
                 <Stack.Group>
                     <Stack.Screen name="TabNavigator" component={TabNavigator} />
-                    <Stack.Screen name="Notification" component={Notification} />
+                    {/* <Stack.Screen name="Notification" component={Notification} />
                     <Stack.Screen name="TopModels" component={TopModels}/>
-                    <Stack.Screen name="Wishlist" component={Wishlist}/>
+                    <Stack.Screen name="Wishlist" component={Wishlist}/> */}
 
 
-                    
                 </Stack.Group>
             }
         </Stack.Navigator>

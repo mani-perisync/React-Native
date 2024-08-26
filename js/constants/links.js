@@ -86,3 +86,6 @@ export const VolvoImg3 = require("../../assets/dashboard/TopModelcars/Volvo/Nobg
 
 // Halfstar
 export const Half_Star = require("../../assets/dashboard/TopModelcars/Half_Star.png")
+
+
+export const ProfilePhoto = require("../../assets/image.jpg")
