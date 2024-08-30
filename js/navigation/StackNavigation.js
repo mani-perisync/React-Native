@@ -47,8 +47,8 @@ export const StackNavigation = ()=> {
             }}
             initialRouteName='SplashScreen'
         >
-            {isLoggedIn ?
-                // Non Auth
+            {!isLoggedIn ?
+                // Non Auths
                 <Stack.Group>
                     <Stack.Screen name="SplashScreen" component={SplashScreen}/>
                     <Stack.Screen name='WelcomePage' component={WelcomePage}/>

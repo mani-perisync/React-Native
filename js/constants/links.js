@@ -89,3 +89,11 @@ export const Half_Star = require("../../assets/dashboard/TopModelcars/Half_Star.
 
 
 export const ProfilePhoto = require("../../assets/image.jpg")
+
+
+
+// shopping
+
+export const BackgroundImg = require("../../assets/shop/photo.jpeg")
+
+
